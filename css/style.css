@@ -1,0 +1,32 @@
+body {
+	font-family: "Lato", "Verdana", sans-serif;
+}
+#map1, #map2 {
+	/*height: 610px;*/
+	height: 100%;
+	width: 100%;
+}
+
+.titlecontainer{
+	position: absolute;
+	top:28px;
+	padding: 0px 50px;
+	padding-left: 200px;
+	text-align: center;
+}
+
+.maptitle{
+	background-color: #333333;
+	color: #dddddd;
+	padding: 2px 6px;
+	font-size: 1.2em;
+}
+
+.pagetitle{
+	background-color: #333333;
+	line-height: 1.6em;
+	font-size: 1.2em;
+	text-align: center;
+	color: #dddddd;
+	font-weight: 600;
+}
