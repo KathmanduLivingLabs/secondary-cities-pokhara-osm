@@ -26,9 +26,8 @@ $(document).ready(function(){
 	//L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
 
-
-	L.tileLayer('http://192.241.246.48/jan/{z}/{x}/{y}.png').addTo(map1);
-	L.tileLayer('http://192.241.246.48/jun/{z}/{x}/{y}.png').addTo(map2);
+    L.tileLayer('https://s3-ap-southeast-1.amazonaws.com/quake-relief-info/kll-map-tiles/pokhara-city-map-tiles/jan-1-2016/{z}/{x}/{y}.png').addTo(map1);
+    L.tileLayer('https://s3-ap-southeast-1.amazonaws.com/quake-relief-info/kll-map-tiles/pokhara-city-map-tiles/jun-6-2016/{z}/{x}/{y}.png').addTo(map2);
 
 	
 
